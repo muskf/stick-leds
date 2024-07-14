@@ -2,7 +2,7 @@
 Description=leds script
 
 [Service]
-ExecStart=/path/to/leds.sh
+ExecStart=/home/user/leds.sh
 Restart=always
 RestartSec=2
 Environment=LED_OFF=0
