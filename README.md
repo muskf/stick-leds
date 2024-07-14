@@ -21,9 +21,9 @@ LED的颜色与目录对应如下。其他型号的板子或系统，如果目�
 
 ## 安装脚本
 ```
-curl -o /path/to/leds.sh https://raw.fastgit.org/yaaprogrammer/stick-leds/main/leds.sh
+curl -o /home/user/leds.sh https://gitdl.cn/https://raw.githubusercontent.com/muskf/stick-leds/main/leds.sh
 chmod 755 /path/to/leds.sh
-curl -o /usr/lib/systemd/system/leds.service https://raw.fastgit.org/yaaprogrammer/stick-leds/main/leds.service
+sudo curl -o /usr/lib/systemd/system/leds.service https://gitdl.cn/https://raw.githubusercontent.com/muskf/stick-leds/main/leds.service
 sudo systemctl enable leds.service --now
 ```
 上述命令以及`leds.service`文件中的`/path/to/leds.sh`自行替换为你想要的目录
